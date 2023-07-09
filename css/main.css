@@ -10,6 +10,7 @@ body {
 }
 
 /* The width property has been changed to max-width */
+
 .content-wrapper {
   max-width: 1200px;
   width: 90%;
@@ -49,17 +50,15 @@ p {
 
 /******** HEADER STYLES ********/
 /* The widths are in a percentage! */
-header .content-wrapper {
+header {
   display: flex;
   justify-content: center;
 }
 
 header h1 {
   margin: 0;
-  padding: 38px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 38px 0 20px 0;
+  width: 100%;
   border-bottom: #45610e solid 3px;
 }
 
@@ -220,6 +219,7 @@ footer span {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    margin: 0;
   }
 
   header h1 {
